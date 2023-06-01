@@ -41,7 +41,7 @@ export default function carousel() {
           <Typography
               variant="lead"
               color="white"
-              className="mb-12 opacity-80"
+              className="mb-12 opacity-80 hidden md:block"
             >
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus minus nihil culpa corrupti consequuntur dignissimos libero doloribus odit dolorum laborum quibusdam animi alias doloremque, dolore blanditiis nulla! Atque eius ducimus doloribus distinctio aliquid, commodi porro, tempore ab, illo quidem libero?
             </Typography>
@@ -66,7 +66,7 @@ export default function carousel() {
           <Typography
               variant="lead"
               color="white"
-              className="mb-12 opacity-80"
+              className="mb-12 opacity-80 hidden md:block"
             >
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus minus nihil culpa corrupti consequuntur dignissimos libero doloribus odit dolorum laborum quibusdam animi alias doloremque, dolore blanditiis nulla! Atque eius ducimus doloribus distinctio aliquid, commodi porro, tempore ab, illo quidem libero?
             </Typography>
@@ -91,7 +91,7 @@ export default function carousel() {
           <Typography
               variant="lead"
               color="white"
-              className="mb-12 opacity-80"
+              className="mb-12 opacity-80 hidden md:block"
             >
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus minus nihil culpa corrupti consequuntur dignissimos libero doloribus odit dolorum laborum quibusdam animi alias doloremque, dolore blanditiis nulla! Atque eius ducimus doloribus distinctio aliquid, commodi porro, tempore ab, illo quidem libero?
             </Typography>

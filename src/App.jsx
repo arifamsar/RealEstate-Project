@@ -12,8 +12,8 @@ function App() {
     {/* Hero Section Start */}
     <div className="lg:py-5">
     <Carousel />
-    <div className='h-max max-w-full bg-teal-50 my-10 py-10'>
-      <div className='w-full mx-auto text-center justify-center items-center'>
+    <div className='h-max max-w-full bg-teal-50 lg:mt-10 mb-0 py-5'>
+      <div>
       <MainSection/>
       </div>
     </div>
