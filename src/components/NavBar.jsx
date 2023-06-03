@@ -5,7 +5,6 @@ import {
   Typography,
   Button,
   IconButton,
-  Card,
 } from "@material-tailwind/react";
  
 export default function NavBar() {
@@ -27,7 +26,17 @@ export default function NavBar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Pages
+          Home
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-normal"
+      >
+        <a href="#about" className="flex items-center">
+          About Us
         </a>
       </Typography>
       <Typography
@@ -37,7 +46,7 @@ export default function NavBar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Account
+          Contact Us
         </a>
       </Typography>
       <Typography
@@ -47,17 +56,7 @@ export default function NavBar() {
         className="p-1 font-normal"
       >
         <a href="#" className="flex items-center">
-          Blocks
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Docs
+          News
         </a>
       </Typography>
     </ul>
@@ -78,10 +77,11 @@ export default function NavBar() {
             <div className="mr-4 hidden lg:block">{navList}</div>
             <Button
               variant="gradient"
+              color="cyan"
               size="sm"
               className="hidden lg:inline-block"
             >
-              <span>Buy Now</span>
+              <span>Reserve Now</span>
             </Button>
             <IconButton
               variant="text"
@@ -124,8 +124,13 @@ export default function NavBar() {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <Button variant="gradient" size="sm" fullWidth className="mb-2">
-            <span>Buy Now</span>
+          <Button 
+          variant="gradient" 
+          size="sm"
+          color="cyan" 
+          fullWidth 
+          className="mb-2">
+            <span>Reserve Now</span>
           </Button>
         </MobileNav>
       </Navbar>
