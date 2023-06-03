@@ -49,16 +49,6 @@ export default function NavBar() {
           Contact Us
         </a>
       </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          News
-        </a>
-      </Typography>
     </ul>
   );
  

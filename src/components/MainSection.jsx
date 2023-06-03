@@ -23,11 +23,11 @@ const property = [
 const MainSection = () => {
 
   const listProperty = property.map(item =>
-    <Card className="mb-10 mx-10 mt-6 w-96"
+    <Card className="mb-10 sm:mx-2 md:mx-10 mt-6 w-96"
     key={item.id}
     >
-      <CardHeader color="blue-gray" className="relative h-56">
-        <img src={item.Image} alt={item.name} layout="fill" />
+      <CardHeader color="blue-gray" className="relative h-50">
+        <img className="w-full" src={item.Image} alt={item.name} layout="fill" />
       </CardHeader>
       <CardBody>
         <Typography variant="h5" color="blue-gray" className="mb-2">
