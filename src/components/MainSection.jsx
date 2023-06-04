@@ -48,7 +48,7 @@ const MainSection = () => {
     </Card>
     )
   return (
-    <div className="w-full container mx-auto">
+    <div id="product" className="w-full container mx-auto">
       <Typography variant="h4" className="text-center text-primary font-semibold py-10">
         Our Featured Contents
       </Typography>

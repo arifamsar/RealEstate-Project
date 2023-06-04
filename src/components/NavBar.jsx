@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./Contact";
 import {
   Navbar,
   MobileNav,
@@ -39,16 +40,7 @@ export default function NavBar() {
           About Us
         </a>
       </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Contact Us
-        </a>
-      </Typography>
+      <Contact/>
     </ul>
   );
  
@@ -65,6 +57,7 @@ export default function NavBar() {
           </Typography>
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
+            <a href="#product">
             <Button
               variant="gradient"
               color="cyan"
@@ -73,6 +66,7 @@ export default function NavBar() {
             >
               <span>Reserve Now</span>
             </Button>
+            </a>
             <IconButton
               variant="text"
               className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
@@ -114,7 +108,8 @@ export default function NavBar() {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <Button 
+          <a href="#product">
+          <Button
           variant="gradient" 
           size="sm"
           color="cyan" 
@@ -122,6 +117,7 @@ export default function NavBar() {
           className="mb-2">
             <span>Reserve Now</span>
           </Button>
+          </a>
         </MobileNav>
       </Navbar>
     </>
