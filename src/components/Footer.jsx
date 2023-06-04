@@ -1,5 +1,4 @@
 import { Typography } from "@material-tailwind/react";
-import Logo from "../assets/Logo.png"
 import { HomeModernIcon } from "@heroicons/react/24/solid";
 
 const Footer = () => {
