@@ -1,17 +1,20 @@
 import React from "react";
 import { Popover, PopoverHandler, PopoverContent, Avatar, Typography, List, Button, ListItem, ListItemPrefix } from "@material-tailwind/react";
 import { BuildingOffice2Icon, PhoneIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
-import profile from "../assets/avatar.png";
+import profile from "../assets/avatar.png"
 
-export default function Contact() {
+export default function ContactFooter() {
   return (
-    <Popover placement="bottom">
+    <Popover placement="top">
       <PopoverHandler>
-        <Typography as="a" variant="small" color="blue-gray" className="p-1 font-normal cursor-pointer hover:cursor-pointer">
-          Contact
-        </Typography>
+      <Typography
+        as="a"
+        className="font-normal transition-colors text-cyan-50 hover:text-cyan-500 focus:text-cyan-500 cursor-pointer hover:cursor-pointer"
+      >
+        Contact
+      </Typography>
       </PopoverHandler>
-      <PopoverContent className="w-72 my-20 md:my-5">
+      <PopoverContent className="w-72">
         <div className="flex items-center gap-4 border-b border-blue-gray-50 pb-4 mb-4">
           <Avatar src={profile} alt="candice wu" />
           <div>

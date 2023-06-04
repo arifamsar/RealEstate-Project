@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import { HomeModernIcon } from "@heroicons/react/24/solid";
+import ContactFooter from "./ContactFooter";
 
 const Footer = () => {
   return (
@@ -35,13 +36,7 @@ const Footer = () => {
             </Typography>
           </li>
           <li>
-            <Typography
-              as="a"
-              href="#"
-              className="font-normal transition-colors hover:text-cyan-500 focus:text-cyan-500"
-            >
-              Contact Us
-            </Typography>
+            <ContactFooter/>
           </li>
         </ul>
       </div>
