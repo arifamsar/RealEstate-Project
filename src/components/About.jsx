@@ -5,7 +5,7 @@ const About = () => {
     return (
         // import background image
         <div id='about' className="bg-fixed bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${Image})` }}>
-            <div className="flex flex-col items-center justify-center lg:h-screen py-10">
+            <div className="flex flex-col items-center justify-center lg:h-screen h-[700px] py-10">
                 <h1 className="text-2xl lg:text-5xl md:text-4xl  text-white font-bold">About Us</h1>
                 <p 
                 className="text-white text-center text-lg mt-5 px-10"
